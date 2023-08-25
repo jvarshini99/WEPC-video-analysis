@@ -1,0 +1,5 @@
+name: env
+dependencies:
+  - cudatoolkit
+  - pip:
+    - -r requirements.txt

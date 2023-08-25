@@ -1,0 +1,29 @@
+numpy
+fvcore==0.1.5.post20221221
+simplejson
+# PyAV from conda
+#av
+ffmpeg-python
+#opencv-python
+# PyYaml
+# tqdm
+iopath
+#psutil
+#tensorboard
+# moviepy: (optional, for visualizing video on tensorboard) conda install -c conda-forge moviepy or pip install moviepy
+pytorchvideo
+# FairScale
+git+https://github.com/facebookresearch/fairscale
+
+#Torch
+--find-links https://download.pytorch.org/whl/cu111
+torch==1.10.0
+torchvision==0.11.1
+
+# Detectron
+--find-links https://dl.fbaipublicfiles.com/detectron2/wheels/cpu/torch1.10/index.html
+detectron2
+
+git+https://github.com/oscarwooberry/SlowFast.git
+git+https://github.com/facebookresearch/pytorchvideo.git
+
